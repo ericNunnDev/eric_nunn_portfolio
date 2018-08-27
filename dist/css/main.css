@@ -115,7 +115,10 @@
     .menu-branding .portrait {
       background: url("../img/profile-pic.PNG");
       height: 150px;
-      width: 150px; } }
+      width: 150px; }
+  .about-info {
+    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 500px) {
   main#home {
@@ -187,3 +190,33 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+
+.about-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-columns: repeat(3, 1fr); }
+  .about-info .bio-image {
+    grid-area: bioimage;
+    margin: auto;
+    border-radius: 50%;
+    border: #E61321 3px solid; }
+  .about-info .bio {
+    grid-area: bio;
+    font-size: 1.5rem; }
+  .about-info .job-1 {
+    grid-area: job1; }
+  .about-info .job-2 {
+    grid-area: job2; }
+  .about-info .job-3 {
+    grid-area: job3; }
+  .about-info .job {
+    background: #2f2f2f;
+    padding: 0.5rem;
+    border-bottom: #E61321 5px solid; }
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #090909;
+  height: 60px; }
