@@ -1,16 +1,16 @@
 .menu-btn {
-  transition: all 0.6s ease-out;
-  cursor: pointer;
   position: absolute;
   right: 35px;
   top: 35px;
+  cursor: pointer;
+  transition: all 0.6s ease-out;
   z-index: 3; }
   .menu-btn .btn-line {
-    transition: all 0.6s ease-out;
-    background: #fff;
+    width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    width: 28px; }
+    background: #fff;
+    transition: all 0.6s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
@@ -23,9 +23,9 @@
 .menu {
   position: fixed;
   top: 0;
+  width: 100%;
   opacity: 0.9;
-  visibility: hidden;
-  width: 100%; }
+  visibility: hidden; }
   .menu.show {
     visibility: visible; }
   .menu-branding, .menu-nav {
@@ -42,7 +42,7 @@
     padding: 0;
     background: #151515;
     list-style: none;
-    transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, -100%, 0);
     transition: all 0.6s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
@@ -53,9 +53,9 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
-      background: url("/dist/img/profile-pic.PNG");
+      width: 300px;
+      height: 300px;
+      background: url("../img/menu-img.jpg");
       border-radius: 50%;
       border: solid 3px #E61321; }
   .menu .nav-item {
@@ -72,7 +72,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: set-text-color(#222);
     text-decoration: none;
     transition: all 0.6s ease-out; }
     .menu .nav-link:hover {
@@ -164,12 +164,14 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
+    height: 320px;
     margin: auto;
     border-radius: 50%;
-    border: #E61321 3px solid; }
+    border: #E61321 3px solid;
+    width: 300px; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.25rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
