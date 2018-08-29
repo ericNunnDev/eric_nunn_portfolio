@@ -184,6 +184,18 @@ main {
     padding: 0.5rem;
     border-bottom: #E61321 5px solid; }
 
+.projects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr); }
+  .projects img {
+    width: 100%;
+    border: 3px #fff solid; }
+    .projects img:hover {
+      opacity: 0.5;
+      border-color: #E61321;
+      transition: all 0.6s ease-out; }
+
 .boxes {
   display: flex;
   flex-wrap: wrap;
@@ -192,10 +204,16 @@ main {
   margin-top: 1rem; }
   .boxes div {
     font-size: 2rem;
-    border: 3px solid #fff;
+    border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
     transition: all 0.6s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #E61321;
+      color: set-text-color(#E61321); }
+      .boxes div:hover span {
+        color: set-text-color(#E61321); }
 
 #main-footer {
   text-align: center;
