@@ -164,15 +164,16 @@ main {
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
-    grid-area: bioimage;
-    height: 320px;
-    margin: auto;
     border-radius: 50%;
     border: #E61321 3px solid;
+    height: 320px;
+    grid-area: bioimage;
+    margin: auto;
     width: 300px; }
   .about-info .bio {
+    font-size: 1.1rem;
     grid-area: bio;
-    font-size: 1.25rem; }
+    letter-spacing: 0.0625em; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {

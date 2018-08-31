@@ -1,7 +1,7 @@
 {
     "name": "portfolio",
     "version": "1.0.0",
-    "description": "",
+    "description": "Portfolio of Web Developer Eric Nunn",
     "main": "index.js",
     "scripts": {
         "sass": "node-sass -w scss/ -o dist/css/ --recursive"
@@ -9,6 +9,7 @@
     "author": "Eric Nunn",
     "license": "MIT",
     "dependencies": {
+        "gh-pages": "^1.2.0",
         "node-sass": "^4.9.3"
     }
 }

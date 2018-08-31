@@ -78,33 +78,33 @@ main {
     grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
     grid-template-columns: repeat(3, 1fr);
     .bio-image {
-        grid-area: bioimage;
-        height: 320px;
-        margin: auto;
         border-radius: 50%;
         border: $secondary-color 3px solid;
+        height: 320px;
+        grid-area: bioimage;
+        margin: auto;
         width: 300px;
     }
 
+
     .bio {
+        font-size: 1.1rem;
         grid-area: bio;
-        font-size: 1.25rem;
+        letter-spacing: 0.0625em;
     }
+
 
     .job-1 {
         grid-area: job1;
     }
 
-
     .job-2 {
         grid-area: job2;
     }
 
-
     .job-3 {
         grid-area: job3;
     }
-
     .job {
         background: lighten($primary-color, 5);
         padding: 0.5rem;
