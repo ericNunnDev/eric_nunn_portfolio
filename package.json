@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Portfolio of Web Developer Eric Nunn",
     "main": "index.js",
-    "homepage": "https://lowlyhero.github.io/eric_nunn_portfolio/",
+    "homepage": "https://lowlyhero.github.io/eric_nunn_portfolio",
     "scripts": {
         "sass": "node-sass -w scss/ -o dist/css/ --recursive",
         "deploy": "gh-pages -d dist"
