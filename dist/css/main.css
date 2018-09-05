@@ -182,12 +182,12 @@ main {
     grid-area: job3; }
   .about-info .job {
     background: #2f2f2f;
-    padding: 0.5rem;
+    padding: 0.6rem;
     border-bottom: #E61321 5px solid; }
 
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 0.9rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
