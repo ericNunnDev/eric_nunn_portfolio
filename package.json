@@ -1,17 +1,32 @@
 {
-    "name": "portfolio",
-    "version": "1.0.0",
-    "description": "Portfolio of Web Developer Eric Nunn",
-    "main": "index.js",
-    "homepage": "https://lowlyhero.github.io/eric_nunn_portfolio",
-    "scripts": {
-        "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-        "deploy": "gh-pages -d dist"
-    },
-    "author": "Eric Nunn",
-    "license": "MIT",
-    "dependencies": {
-        "gh-pages": "^1.2.0",
-        "node-sass": "^4.9.3"
-    }
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio of Web Developer Eric Nunn",
+  "main": "index.js",
+  "homepage": "https://lowlyhero.github.io/eric_nunn_portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Eric Nunn",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lowlyHero/eric_nunn_portfolio.git"
+  },
+  "keywords": [
+    "eric",
+    "nunn",
+    "portfolio",
+    "web",
+    "developer",
+    "front-end"
+  ],
+  "bugs": {
+    "url": "https://github.com/lowlyHero/eric_nunn_portfolio/issues"
+  }
 }
