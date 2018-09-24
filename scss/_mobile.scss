@@ -31,13 +31,14 @@
         transform: translate3d(100%, 0, 0);
 
         div.portrait {
-            background: url('../img/menu-img-sm.jpg');
+            background-image: url('/dist/img/mobile-menu-img.jpg');
             height: 12.5rem;
             width: 10rem;
         }
     }
+
     .about-info {
-        grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+        grid-template-areas: 'bioimage''bio''job1''job2''job3';
         grid-template-columns: 1fr;
     }
 
