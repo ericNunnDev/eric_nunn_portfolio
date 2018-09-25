@@ -99,6 +99,9 @@ main {
         letter-spacing: 0.0625em;
     }
 
+    li {
+        list-style: none;
+    }
 
     .job-1 {
         grid-area: job1;

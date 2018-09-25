@@ -174,6 +174,8 @@ main {
     font-size: 1.1rem;
     grid-area: bio;
     letter-spacing: 0.0625em; }
+  .about-info li {
+    list-style: none; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -256,7 +258,7 @@ main {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -267,7 +269,7 @@ main {
       margin-top: 1rem;
       font-size: 5rem; }
   div.portrait {
-    background-image: url("/dist/img/mobile-menu-img.jpg");
+    background-image: url("../img/mobile-menu-img.jpg");
     height: 12.5rem;
     width: 10rem; }
   .projects {
